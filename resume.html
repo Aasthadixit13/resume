@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body {
+        background-color: lightskyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+    }
+
+    .container {
+        position: relative;
+        width: 200%;
+        min-width: 1000px;
+        min-height: 1000px;
+        background-color: blue;
+        margin: 20px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+    }
+
+    .left {
+        position: relative;
+        background-color: blue;
+        padding: 40px;
+    }
+
+    .right {
+        position: relative;
+        background-color: white;
+        padding: 40px;
+    }
+
+    .profiletext {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    h2 {
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 1.4em;
+
+    }
+
+    .profiletext h2 span {
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+    .info {
+        padding: 20px;
+
+    }
+
+    .title {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        margin-bottom: 20px;
+    }
+
+    .info ul {
+        position: relative;
+    }
+
+    .info ul li {
+        position: relative;
+        list-style: none;
+        margin: 10px 0;
+
+    }
+
+    .icon {
+        display: inline-block;
+        width: 20px;
+        font-size: 20px;
+        color: aqua;
+    }
+
+    .info ul li span {
+        color: white;
+        font-weight: 200;
+    }
+    .education li{
+        margin-bottom: 15px;
+    }
+    .education h5{
+        color: white;
+        font-weight: 500;
+
+
+
+    }
+    .education h4:nth-child(2){
+        color: white;
+        font-weight: 500;
+
+    }
+    h4{
+        color: white;
+        font-weight: 300;
+    }
+    .percent{
+        height: 6px;
+        width: 100%;
+        position: relative;
+        margin-top: 5px;
+        display: block;
+        background: white;
+
+    }
+    .percent div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: aqua;
+
+    }
+    .right{
+        position: relative;
+        padding: 60px;
+    }
+    .about{
+        margin-bottom: 50px;
+    }
+    .title2{
+        color: black;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: large;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0;
+    }
+    h6{
+        font-size: medium;
+        text-transform: uppercase;
+    }
+    .interest ul li{
+        /* list-style: none; */
+        font-weight: 500;margin: 12px 0;
+
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="profiletext">
+                <h2>AASTHA DIXIT
+                    <br>
+                    FRONTEND WEB DEVELOPER
+                </h2>
+            </div>
+            <div class="info">
+                <h3 class="title">contact info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <span class="text">8602484566</span>
+
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="text">dixitaastha13@gmail.com</span>
+
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="text">Indrapuri,bhopal</span>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="info education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2022-2024</h5>
+                        <h4>
+                            MCA
+
+                        </h4>
+                        <h4>Lnct-univercity</h4>
+                    </li>
+                    <li>
+                        <h5>2022</h5>
+                        <h4>B.SC.
+
+                        </h4>
+                        <h4>Mcbu-univercity</h4>
+                    </li>
+                    <li>
+                        <h5>2018</h5>
+                        <h4>12th
+
+                        </h4>
+                        <h4>Saraswati school</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="info language">
+                <h3 class="title">Lanaguages</h3>
+                    <ul>
+                        <li>
+                            <span class="text">Hindi</span>
+                            <span class="percent">
+                                <div style="width: 95%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">English</span>
+                            <span class="percent">
+                                <div style="width: 85%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">Html</span>
+                            <span class="percent">
+                                <div style="width: 75%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">Css</span>
+                            <span class="percent">
+                                <div style="width: 65%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">C</span>
+                            <span class="percent">
+                                <div style="width: 55%;"></div>
+                            </span>
+                        </li>
+                    </ul>
+                
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="about">
+                <h1 class="title2">profile</h1><br>
+                <p>As a second year master student in computer science,i am deeply passinote about exploration,continous learning and cultivating meaningful connections.</p>
+            </div>
+            <div class="about">
+                <h1 class="title2">project</h1>
+                <div class="box">
+                    <ol>
+                        <li>
+                            <h6>Amozon clone</h6>
+                            
+                            <br>
+                            <p>The Amazon Clone app provides a multi-vendor eCommerce marketplace via which the vendors and the users can communicate and sell/buy products. Users log in to the Amazon clone application and complete the user authentication process. Vendors can upload their products using the app and get approval from the site admin.</p>
+                        <br>
+                        
+                        </li>
+                        <li>
+                            <h6>Resume</h6>
+                            
+                            <br>
+                            <p>A resume summary is a brief statement at the top of your resume that highlights your professional skills, experience, and achievements. It makes the hiring manager want to read your resume and get to know you better.</p><br>
+                        </li>
+                        <li>
+                            <h6>Neuroserion website</h6>
+                            
+                            <br>
+                            <p>Neurosurgeons, also known as brain surgeons, are doctors who specialise in the surgical treatment and management of conditions that affect the brain, spine and nervous system.Neurosurgeons are different from neurologists, who are specialist physicians that treat conditions and diseases of the brain and nervous system.</p><br>
+                        </li>
+                        <li>
+                            <h6>Diwali Festival website</h6>
+                            
+                            <br>
+                            <p>Diwali, the festival of lights is indeed the most awaited and the most celebrated festivals of India. People in every nook and cranny of the country welcome the festival with enthusiastic gestures. This wonderful festival is the celebration of five days. On the third day of the celebratory occasion, the key rituals of the Diwali festival take place. Lighting of Diyas and candles all around the house, worshipping the Laxmi Ganesha to summon health and wealth and bursting crackers are the chief rituals of the festival.</p><br>
+                        </li>
+
+                    </ol>
+                </div>
+                <about class="interest">
+                    <h6 class="title2">intest</h6>
+                    <ul>
+                        <li>reading</li>
+                        <li>football</li>
+                        <li>danceing</li>
+                        <li>cooking</li>
+                    </ul>
+                </about>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
